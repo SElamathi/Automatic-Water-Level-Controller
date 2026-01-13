@@ -1,2 +1,6 @@
-# Automatic-Water-Level-Controller
-Automatic Water Level Controller using IC555 timer to prevent water overflow and save energy. The system indicates LOW, MEDIUM, and HIGH water levels using LEDs and automatically stops the motor when the tank is full. Simple, low-cost, and efficient solution for smart water management.
+# Automatic Water Level Controller
+This project presents an Automatic Water Level Detector and Motor Control System designed to efficiently manage water usage in overhead tanks. The system automatically turns ON the motor when the water level falls below a minimum threshold and turns OFF the motor when the tank reaches a full level, thereby preventing water wastage and motor dry running.
+
+The core of the system uses the LM324 operational amplifier configured as a comparator to detect different water levels through sensing probes. Based on the voltage variation caused by water contact, the op-amp produces control signals that drive a relay circuit. The relay safely switches the water pump without direct high-power interaction with the control circuit. Visual indicators such as LEDs provide real-time information about tank status, including low level, full level, and motor operation.
+
+The project emphasizes simplicity, reliability, and low cost, making it suitable for domestic and small-scale applications. By eliminating manual monitoring, the system improves convenience and ensures efficient water management. This design also serves as a strong foundation for future enhancements such as IoT-based monitoring or mobile notifications.
